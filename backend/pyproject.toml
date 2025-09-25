@@ -1,7 +1,15 @@
 [project]
 name = "sql-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "BigQuery MCP Server with Google ADK integration"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "google-adk>=1.14.1",
+    "mcp>=1.1.2",
+    "google-cloud-bigquery>=3.11.0",
+    "pandas>=2.0.0",
+    "tabulate>=0.9.0",
+    "pydantic>=2.0.0",
+    "pyyaml>=6.0.0",
+]
